@@ -1,4 +1,4 @@
-# cleanup-ai
+# CleanUp.ai
 
 ## Inspiration
 Our objective was to create a mobile application for the "Best Sustainability Hack sponsored by Avanade" category. As we have been recently acquainted with mobile application development and excited about the potential of image recognition and artificial intelligence, we decided to incorporate these technologies into our iOS app. As young adults, we often face challenges when it comes to proper waste disposal and recycling. To address this issue, we created CleanUp.ai - an app that allows individuals to accurately sort their trash and promote sustainable waste management practices.
