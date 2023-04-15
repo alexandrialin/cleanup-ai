@@ -16,6 +16,14 @@
 		1E9D949829E9A4100029F609 /* hack_battleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D949729E9A4100029F609 /* hack_battleTests.swift */; };
 		1E9D94A229E9A4100029F609 /* hack_battleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A129E9A4100029F609 /* hack_battleUITests.swift */; };
 		1E9D94A429E9A4100029F609 /* hack_battleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94A329E9A4100029F609 /* hack_battleUITestsLaunchTests.swift */; };
+		1E9D94B229E9A9030029F609 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9D94B129E9A9030029F609 /* AVFoundation.framework */; };
+		1E9D94B429E9A90F0029F609 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9D94B329E9A90F0029F609 /* Vision.framework */; };
+		1E9D94B629E9AB780029F609 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94B529E9AB780029F609 /* MobileNetV2.mlmodel */; };
+		1E9D94B829EA1E820029F609 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94B729EA1E820029F609 /* HomeController.swift */; };
+		1E9D94BA29EA32650029F609 /* RecyclingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94B929EA32640029F609 /* RecyclingViewController.swift */; };
+		1E9D94BC29EA37C80029F609 /* GarbageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94BB29EA37C80029F609 /* GarbageViewController.swift */; };
+		1E9D94BE29EA3B580029F609 /* CompostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94BD29EA3B580029F609 /* CompostViewController.swift */; };
+		1E9D94C029EA44EA0029F609 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D94BF29EA44EA0029F609 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		1E9D949D29E9A4100029F609 /* hack-battleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hack-battleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9D94A129E9A4100029F609 /* hack_battleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_battleUITests.swift; sourceTree = "<group>"; };
 		1E9D94A329E9A4100029F609 /* hack_battleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_battleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E9D94B129E9A9030029F609 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1E9D94B329E9A90F0029F609 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		1E9D94B529E9AB780029F609 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		1E9D94B729EA1E820029F609 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		1E9D94B929EA32640029F609 /* RecyclingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclingViewController.swift; sourceTree = "<group>"; };
+		1E9D94BB29EA37C80029F609 /* GarbageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbageViewController.swift; sourceTree = "<group>"; };
+		1E9D94BD29EA3B580029F609 /* CompostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostViewController.swift; sourceTree = "<group>"; };
+		1E9D94BF29EA44EA0029F609 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9D94B429E9A90F0029F609 /* Vision.framework in Frameworks */,
+				1E9D94B229E9A9030029F609 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,7 @@
 				1E9D949629E9A4100029F609 /* hack-battleTests */,
 				1E9D94A029E9A4100029F609 /* hack-battleUITests */,
 				1E9D947E29E9A40B0029F609 /* Products */,
+				1E9D94B029E9A9030029F609 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 		1E9D947F29E9A40B0029F609 /* hack-battle */ = {
 			isa = PBXGroup;
 			children = (
+				1E9D94B529E9AB780029F609 /* MobileNetV2.mlmodel */,
 				1E9D948029E9A40B0029F609 /* AppDelegate.swift */,
 				1E9D948229E9A40B0029F609 /* SceneDelegate.swift */,
 				1E9D948429E9A40B0029F609 /* ViewController.swift */,
@@ -106,6 +126,11 @@
 				1E9D948929E9A40F0029F609 /* Assets.xcassets */,
 				1E9D948B29E9A40F0029F609 /* LaunchScreen.storyboard */,
 				1E9D948E29E9A40F0029F609 /* Info.plist */,
+				1E9D94B729EA1E820029F609 /* HomeController.swift */,
+				1E9D94B929EA32640029F609 /* RecyclingViewController.swift */,
+				1E9D94BB29EA37C80029F609 /* GarbageViewController.swift */,
+				1E9D94BD29EA3B580029F609 /* CompostViewController.swift */,
+				1E9D94BF29EA44EA0029F609 /* QuizViewController.swift */,
 			);
 			path = "hack-battle";
 			sourceTree = "<group>";
@@ -125,6 +150,15 @@
 				1E9D94A329E9A4100029F609 /* hack_battleUITestsLaunchTests.swift */,
 			);
 			path = "hack-battleUITests";
+			sourceTree = "<group>";
+		};
+		1E9D94B029E9A9030029F609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D94B329E9A90F0029F609 /* Vision.framework */,
+				1E9D94B129E9A9030029F609 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E9D948529E9A40B0029F609 /* ViewController.swift in Sources */,
+				1E9D94BC29EA37C80029F609 /* GarbageViewController.swift in Sources */,
+				1E9D94BE29EA3B580029F609 /* CompostViewController.swift in Sources */,
+				1E9D94BA29EA32650029F609 /* RecyclingViewController.swift in Sources */,
 				1E9D948129E9A40B0029F609 /* AppDelegate.swift in Sources */,
+				1E9D94B629E9AB780029F609 /* MobileNetV2.mlmodel in Sources */,
+				1E9D94C029EA44EA0029F609 /* QuizViewController.swift in Sources */,
 				1E9D948329E9A40B0029F609 /* SceneDelegate.swift in Sources */,
+				1E9D94B829EA1E820029F609 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,8 +480,12 @@
 				DEVELOPMENT_TEAM = X798TJWGDW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hack-battle/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CleanUp.ai;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed for object recognition.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide recycling information specific to your area.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide recycling information specific to your area.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -468,8 +512,12 @@
 				DEVELOPMENT_TEAM = X798TJWGDW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hack-battle/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CleanUp.ai;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed for object recognition.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide recycling information specific to your area.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide recycling information specific to your area.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
